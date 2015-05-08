@@ -51,7 +51,7 @@ public class TweenTransform : UITweener
 			}
 
 			// Change the parent when finished, if requested
-			if (parentWhenFinished && isFinished) mTrans.parent = to;
+            if (parentWhenFinished && isFinished) mTrans.SetParent(to);
 		}
 	}
 
